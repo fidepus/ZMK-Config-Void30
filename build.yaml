@@ -17,6 +17,8 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
-include:
-  - board: puchi_ble_v1
-    shield: Void30
+board: [ "puchi_ble_v1" ]
+shield: [ "Void30" ]
+#include:
+#  - board: puchi_ble_v1
+#    shield: Void30
