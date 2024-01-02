@@ -1,2 +1,6 @@
+if SHIELD_MY_BOARD
+
 config SHIELD_VOID30
     def_bool $(shields_list_contains Void30)
+
+endif
