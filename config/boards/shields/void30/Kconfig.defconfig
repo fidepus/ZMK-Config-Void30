@@ -1,0 +1,6 @@
+if SHIELD_VOID30
+
+config ZMK_KEYBOARD_NAME
+    default "Void30"
+
+endif

@@ -19,6 +19,4 @@
 ---
 include:
   - board: puchi_ble_v1
-    shield: corne_left
-  - board: puchi_ble_v1
-    shield: corne_right
+    shield: Void30
