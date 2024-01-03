@@ -3,6 +3,35 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        Komma {
+            bindings = <&kp KP_COMMA>;
+            key-positions = <26 27>;
+        };
+
+        Punkt {
+            bindings = <&kp PERIOD>;
+            key-positions = <28 27>;
+        };
+
+        Cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <22 21>;
+        };
+
+        Copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <22 23>;
+        };
+
+        Paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <24 23>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
