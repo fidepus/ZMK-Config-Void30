@@ -13,9 +13,9 @@
             // |    Z    |    X    |    C    |    V    |         |         |    B    |    N    |    M    |  RETURN |
 
             bindings = <
-&kp Q        &kp W       &kp E             &kp R    &kp T            &kp Y        &kp U    &kp I       &kp O        &kp P
-&kp A        &kp S       &kp D             &kp F    &kp G            &kp H        &kp J    &kp K       &kp L        &lt 5 SEMI
-&mt LCTRL Z  &mt LALT X  &mt LANGUAGE_9 C  &lt 3 V  &lt 2 BACKSPACE  &lt 1 SPACE  &lt 4 B  &mt RALT N  &mt RCTRL M  &mt RSHFT ENTER
+&kp Q        &kp W       &kp E           &kp R    &kp T            &kp Y        &kp U    &kp I       &kp O        &kp P
+&kp A        &kp S       &kp D           &kp F    &kp G            &kp H        &kp J    &kp K       &kp L        &lt 5 SEMI
+&mt LCTRL Z  &mt LALT X  &mt LEFT_GUI C  &lt 3 V  &lt 2 BACKSPACE  &lt 1 SPACE  &lt 4 B  &mt RALT N  &mt RCTRL M  &mt RSHFT ENTER
             >;
         };
 
