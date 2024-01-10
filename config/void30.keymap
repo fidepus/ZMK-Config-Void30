@@ -32,7 +32,7 @@
         };
 
         ae {
-            bindings = <&kp DOUBLE_QUOTES>;
+            bindings = <&kp SINGLE_QUOTE>;
             key-positions = <19 18>;
         };
     };
