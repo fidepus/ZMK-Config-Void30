@@ -30,6 +30,11 @@
             bindings = <&kp LG(V)>;
             key-positions = <24 23>;
         };
+
+        ae {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <19 18>;
+        };
     };
 
     keymap {
@@ -82,9 +87,9 @@
 
         layer_5 {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans
-&trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans
-&trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans       &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans        &trans  &trans       &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans        &trans  &bootloader  &trans  &trans  &trans
             >;
         };
     };
