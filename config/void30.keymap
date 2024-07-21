@@ -84,9 +84,9 @@
 
         layer_4 {
             bindings = <
-&trans   &trans  &trans  &trans  &trans  &kp UNDER      &kp PLUS          &kp LBRC       &kp RBRC     &kp PIPE
-&kp TAB  &trans  &trans  &trans  &trans  &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION   &kp COLON    &kp DOUBLE_QUOTES
-&trans   &trans  &trans  &trans  &trans  &trans         &kp HOME          &kp PAGE_DOWN  &kp PAGE_UP  &kp END
+&trans   &trans  &trans  &sys_reset  &trans  &kp UNDER      &kp PLUS          &kp LBRC       &kp RBRC     &kp PIPE
+&kp TAB  &trans  &trans  &trans      &trans  &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION   &kp COLON    &kp DOUBLE_QUOTES
+&trans   &trans  &trans  &trans      &trans  &trans         &kp HOME          &kp PAGE_DOWN  &kp PAGE_UP  &kp END
             >;
         };
 
